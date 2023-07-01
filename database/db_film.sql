@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Jul 2023 pada 05.10
+-- Waktu pembuatan: 01 Jul 2023 pada 05.18
 -- Versi server: 10.4.24-MariaDB
 -- Versi PHP: 7.4.29
 
@@ -51,7 +51,8 @@ INSERT INTO `film` (`id`, `nama_film`, `id_genre`, `duration`, `cover`, `created
 (10, 'John Wick: Chapter 4', 1, '2 Jam 20 Menit', 'JohnWickChap4.jpg', '2023-06-16 04:21:01', '2023-06-16 04:21:01'),
 (11, 'Encanto', 3, '1 Jam 42 Menit', '1687861933_4dcfbb75f66a53528059.jpg', '2023-06-27 10:32:13', '2023-06-27 10:32:13'),
 (12, 'Fast X', 1, ' 2 Jam 21 Menit', '1687878551_b83138529dc37b816b78.jpg', '2023-06-27 15:09:11', '2023-06-27 15:09:11'),
-(14, '2012', 7, ' 2 Jam 45 Menit', '1688178473_04119fb307aa040978dd.jpg', '2023-07-01 02:27:53', '2023-07-01 02:27:53');
+(14, '2012', 7, ' 2 Jam 45 Menit', '1688178473_04119fb307aa040978dd.jpg', '2023-07-01 02:27:53', '2023-07-01 02:27:53'),
+(16, 'Up', 3, ' 1 Jam 40 Menit', '1688181373_274af40bc65e46acb2fc.jpeg', '2023-07-01 03:16:13', '2023-07-01 03:16:13');
 
 -- --------------------------------------------------------
 
@@ -105,7 +106,7 @@ ALTER TABLE `genre`
 -- AUTO_INCREMENT untuk tabel `film`
 --
 ALTER TABLE `film`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT untuk tabel `genre`
